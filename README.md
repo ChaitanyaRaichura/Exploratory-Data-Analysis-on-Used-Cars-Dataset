@@ -12,13 +12,13 @@ _**Data Analysis**_ or sometimes referred to as _**exploratory data analysis (ED
 
 ## **More Information**
 
-- The raw data stored in [_vehicles.csv_](vehicles.csv) is extracted from [_Cars_dataset_compressed.zip_](Cars_dataset_compressed.zip) file.
-- The raw data in [_vehicles.csv_](vehicles.csv) is used in [_Cleaning_raw_data.ipynb_](Cleaning_raw_data.ipynb) for exploring, cleaning, analysing and visualizing.
-- The csv file [_vehicles.csv_](vehicles.csv) is included in .gitignore as it is a huge sized file and it can also be extracted from [_Cars_dataset_compressed.zip_](Cars_dataset_compressed.zip) file.
+- The raw data stored in [_vehicles.csv_](https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data) is extracted from [_Cars_dataset_compressed.zip_](https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data) file.
+- The raw data in [_vehicles.csv_](https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data) is used in [_Cleaning_raw_data.ipynb_](Cleaning_raw_data.ipynb) for exploring, cleaning, analysing and visualizing.
+- The csv file [_vehicles.csv_](https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data) is included in .gitignore as it is a huge sized file and it can also be extracted from [_Cars_dataset_compressed.zip_](https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data) file.
 
 ## **[Cleaning_raw_data.ipynb](Cleaning_raw_data.ipynb)**
 
-It starts with extracting some basic information about data in [_vehicles.csv_](vehicles.csv) and includes further steps such as:
+It starts with extracting some basic information about data in [_vehicles.csv_](https://www.kaggle.com/datasets/austinreese/craigslist-carstrucks-data) and includes further steps such as:
 - Dropping unnecessary columns.
 - Checking for missing values and taking actions accordingly as per the requirement of each column separately and providing some extra _**data wrangling**_ to get genuine results.
 - Looking for _**outliers**_ in _**YEAR**_ and _**PRICE**_ columns using _**boxplots**_ and removing them using some _**statistical operations**_. Also plotting of boxplots after removing outliers in both the columns to see the changes accordingly.
